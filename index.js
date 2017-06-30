@@ -14,6 +14,6 @@ app.get('/', function (req, res) {
   res.render('home');
 });
 
-app.listen(8000, function () {
-  console.log('Server is running on 8000')
-});
+// app.listen(8000, function () {
+//   console.log('Server is running on 8000')
+// });
