@@ -1,0 +1,61 @@
+h1 {
+	font-size: 5em;
+	font-family: arial,helvetica;
+	color: #fff;
+	margin:0;
+}
+
+.intro p {
+	color: #fff;
+}
+
+/*Center texts in each section*/
+.section {
+	text-align:center;
+}
+
+#section0 {
+	/*padding-top: 50px;*/
+	background-image:
+      linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)),
+      url(/img/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    /*padding-bottom: 100px;*/
+}
+#section0 #fp-nav ul li a span, .fp-slidesNav ul li a span {
+	color: #009688;
+}
+
+#section2 #fp-nav ul li a span, .fp-slidesNav ul li a span {
+	color: #009688;
+}
+
+#slide1 {
+	background-color: #FCE4EC;
+}
+
+#section1 h1, #section1 p, #slide1 h1, #slide1 p {
+	color: #C71585;
+}
+
+#section3 {
+	background-color: #C71585;
+}
+#section3 h1, #section3 #fp-nav ul li a span, .fp-slidesNav ul li a span {
+	color: #FCE4EC;
+}
+/*Styles for control arrows*/
+.controlArrow.prev {
+	left: 50px;
+}
+
+.controlArrow.next {
+	right: 50px;
+}
+
+/*Bottom menu*/
+#infoMenu li a {
+	color: #fff;
+}
